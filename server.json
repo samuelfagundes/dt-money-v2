@@ -1,18 +1,44 @@
 {
-  "transactions": [{
-    "id": 1,
-    "description": "Desenvolvimento de site",
-    "type": "income",
-    "category": "Venda",
-    "price": 14000,
-    "createdAt": "2022-09-21T22:15:19.111Z"
-  },
-  {
-    "id": 2,
-    "description": "Hamburguer",
-    "type": "outcome",
-    "category": "Alimentação",
-    "price": 50,
-    "createdAt": "2022-09-21T22:10:19.111Z"
-  }]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2022-09-21T22:15:19.111Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2022-09-21T22:10:19.111Z"
+    },
+    {
+      "description": "Desenvolvimento de app",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2022-09-30T22:47:07.578Z",
+      "id": 3
+    },
+    {
+      "description": "Ignite",
+      "price": 2000,
+      "category": "Educação",
+      "type": "outcome",
+      "createdAt": "2022-09-30T22:47:32.976Z",
+      "id": 4
+    },
+    {
+      "description": "Drogas",
+      "price": 10,
+      "category": "Saúde",
+      "type": "outcome",
+      "createdAt": "2022-09-30T23:08:31.842Z",
+      "id": 5
+    }
+  ]
 }
